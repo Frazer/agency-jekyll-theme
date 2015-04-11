@@ -4,4 +4,4 @@
 
 some test
 
-(link text)[http://www.google.com/]
+[link text](http://www.google.com/)
