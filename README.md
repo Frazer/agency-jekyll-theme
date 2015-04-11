@@ -1,7 +1,7 @@
 # Frazerk
 
+The frazerk.net website.
+
 ## Docs
 
-some test
-
-[link text](http://www.google.com/)
+[Jekyll](http://jekyllrb.com/docs/home/)
