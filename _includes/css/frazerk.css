@@ -262,11 +262,15 @@ fieldset[disabled] .btn-xl.active {
     }
 }
 
-header {
+.index header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(../img/header-bg.jpg);
+    /* background-image: url(../img/header-bg.jpg); */
+    /*background-image: url(http://fc06.deviantart.net/fs70/f/2012/123/1/9/i_lubb_you_by_roona_mbh-d4yfctp.jpg);*/
+    /*background-image: url(https://farm5.staticflickr.com/4129/5091187326_9bf8967e66_o.jpg);*/
+    background-image: url(https://farm8.staticflickr.com/7039/6835581528_10ec92ce8e_h.jpg);
+
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -275,14 +279,37 @@ header {
     -o-background-size: cover;
 }
 
-header .intro-text {
+.index header .intro-text {
+    padding-top: 250px;
+    padding-bottom: 300px;
+}
+
+.page header {
+    padding: 60px 0 0;
+    background: #2c6f2b;
+    background-image: linear-gradient(left, rgb(44, 111, 43) 0%, rgb(137, 215, 132) 50%, rgb(44, 111, 43) 100%);
+    background-image: -o-linear-gradient(left, rgb(44, 111, 43) 0%, rgb(137, 215, 132) 50%, rgb(44, 111, 43) 100%);
+    background-image: -moz-linear-gradient(left, rgb(44, 111, 43) 0%, rgb(137, 215, 132) 50%, rgb(44, 111, 43) 100%);
+    background-image: -webkit-linear-gradient(left, rgb(44, 111, 43) 0%, rgb(137, 215, 132) 50%, rgb(44, 111, 43) 100%);
+    background-image: -ms-linear-gradient(left, rgb(44, 111, 43) 0%, rgb(137, 215, 132) 50%, rgb(44, 111, 43) 100%);
+    background-image: -webkit-gradient(linear, left bottom, right bottom, color-stop(0, rgb(44, 111, 43)), color-stop(0.5, rgb(137, 215, 132)), color-stop(1, rgb(44, 111, 43)));
+    background-size: 100% auto;
+    margin-bottom: 50px;
+}
+
+
+.page header .intro-text {
     padding-top: 100px;
     padding-bottom: 50px;
+    color: #fff;
 }
 
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+header .intro-text .intro-lead-in p {
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 22px;
     font-style: italic;
     line-height: 22px;
@@ -327,7 +354,7 @@ section {
 
 section h2.section-heading {
     margin-top: 0;
-    margin-bottom: 15px;
+    margin-bottom: 50px;
     font-size: 40px;
 }
 
@@ -338,6 +365,13 @@ section h3.section-subheading {
     font-size: 16px;
     font-style: italic;
     font-weight: 400;
+}
+
+#services .nav a:hover,
+#services .nav a:focus,
+#services .nav a:active {
+    color: red;
+    text-decoration: none;
 }
 
 @media(min-width:768px) {
@@ -862,3 +896,4 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #{{ site.color.primary }};
 }
+

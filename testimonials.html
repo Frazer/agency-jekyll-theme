@@ -1,0 +1,19 @@
+---
+layout: page
+permalink: /testimonials/
+title: Testimonials
+#subtitle: SOmething
+description: Frazer Kirkman testimonials, inspiring minds, changing lives.
+---
+
+
+<div class="container">
+
+    {% for testimonial in site.data.testimonial %}
+    <div>
+        <h4>{{testimonial.name}}</h4>
+        {{testimonial.testimonial}}
+    </div>
+    {% endfor %}
+
+</div>

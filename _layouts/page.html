@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+{% include head.html %}
+
+
+<body id="page-top" class="page">
+
+{% include nav_page.html %}
+
+<header>
+    <div class="container">
+        <div class="intro-text">
+            <div class="intro-heading">{{page.title}}</div>
+            <div class="intro-lead-in">{{page.subtitle}}</div>
+        </div>
+    </div>
+</header>
+
+{{ content }}
+{% include footer.html %}
+{% include js.html %}
+
+</body>
+</html>
