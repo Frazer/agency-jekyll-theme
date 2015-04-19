@@ -3,11 +3,12 @@
 The frazerk.net website.
 
 
-## Docs
+## Documentation
 
-[Jekyll](http://jekyllrb.com/docs/home/)
+For details on how to manage this site, read the [Jekyll Documentation](http://jekyllrb.com/docs/home/).
 
-[To use a wysiwyg:] (http://ckeditor.com/demo#full)
+## Tools
 
-[![Build Status](https://travis-ci.org/Frazer/frazerk.net.png?branch=master)](https://travis-ci.org/Frazer/frazerk.net)
+Click here to use an online [WYSIWYG Editor] (http://ckeditor.com/demo#full) for creating html.
 
+[![Build Status](https://travis-ci.org/Frazer/frazerk.net.png?branch=gh-pages)](https://travis-ci.org/Frazer/frazerk.net)
