@@ -11,27 +11,21 @@ description: Frazer Kirkman testimonials, inspiring minds, changing lives.
 
     {% for testimonial in site.data.testimonial %}
     <div>
-        <div class="row">
-            <div class="col-md-8">
-                <h4>{{testimonial.name}}</h4>
-                {% if testimonial.website %}
-                <a href="{{testimonial.website}}">
-                    {% if testimonial.websiteName %}
-                    {{testimonial.websiteName}}
-                    {% else %}
-                    {{testimonial.website}}
-                    {% endif %}
-                </a><br>
-                {% endif %}
-                {{testimonial.testimonial}}
-            </div>
-            <div class="col-md-4">
-                {% if testimonial.image %}
-                <div class="pull-right testimonialImage">
-                <img src="{{site.baseurl}}/assets/img/testimonial/{{testimonial.image}}"  alt="" /></div>
-                {% endif %}
-            </div>
-        </div>
+        <h4>{{testimonial.name}}</h4>
+        {% if testimonial.image %}
+        <div class="pull-right testimonialImage">
+        <img src="{{site.baseurl}}/assets/img/testimonial/{{testimonial.image}}"  alt="" /></div>
+        {% endif %}
+        {% if testimonial.website %}
+        <a href="{{testimonial.website}}">
+            {% if testimonial.websiteName %}
+            {{testimonial.websiteName}}
+            {% else %}
+            {{testimonial.website}}
+            {% endif %}
+        </a><br>
+        {% endif %}
+        {{testimonial.testimonial}}
     </div>
     {% endfor %}
 
