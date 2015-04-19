@@ -1,0 +1,32 @@
+- name: Frazer Kirkman
+  pic: 1.jpg
+  position: Lead Designer
+  social:
+    - title: twitter
+      url: #page-top
+    - title: facebook
+      url: #page-top
+    - title: stack-overflow
+      url: #page-top
+
+- name: Larry Parker
+  pic: 2.jpg
+  position: Lead Marketer
+  social:
+    - title: twitter
+      url: #page-top
+    - title: facebook
+      url: #page-top
+    - title: linkedin
+      url: #page-top
+
+- name: Diana Petersen
+  pic: 3.jpg
+  position: Lead Developer
+  social:
+    - title: twitter
+      url: #page-top
+    - title: facebook
+      url: #page-top
+    - title: google-plus
+      url: #page-top
