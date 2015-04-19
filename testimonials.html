@@ -22,7 +22,7 @@ description: Frazer Kirkman testimonials, inspiring minds, changing lives.
         </a><br>
         {% endif %}
         {% if testimonial.image %}
-        <img typeof="foaf:Image" src="{{site.baseurl}}/assets/img/testimonial/{{testimonial.image}}" width="100" height="44" alt="" />
+        <img src="{{site.baseurl}}/assets/img/testimonial/{{testimonial.image}}" class="pull-right" alt="" />
         {% endif %}
         {{testimonial.testimonial}}
     </div>
