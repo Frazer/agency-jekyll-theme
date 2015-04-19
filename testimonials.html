@@ -13,6 +13,9 @@ description: Frazer Kirkman testimonials, inspiring minds, changing lives.
     <div>
         <h4>{{testimonial.name}}</h4>
         {% if testimonial.website %}
+        {% if testimonial.image %}
+        <img src="{{site.baseurl}}/assets/img/testimonial/{{testimonial.image}}" class="pull-right" alt="" />
+        {% endif %}
         <a href="{{testimonial.website}}">
             {% if testimonial.websiteName %}
             {{testimonial.websiteName}}
@@ -20,9 +23,6 @@ description: Frazer Kirkman testimonials, inspiring minds, changing lives.
             {{testimonial.website}}
             {% endif %}
         </a><br>
-        {% endif %}
-        {% if testimonial.image %}
-        <img src="{{site.baseurl}}/assets/img/testimonial/{{testimonial.image}}" class="pull-right" alt="" />
         {% endif %}
         {{testimonial.testimonial}}
     </div>
