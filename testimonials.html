@@ -11,7 +11,7 @@ description: Frazer Kirkman testimonials, inspiring minds, changing lives.
 
     {% for testimonial in site.data.testimonial %}
     <div>
-        <h4>{{testimonial.name}}</h4>
+        <h4 class="pull-left">{{testimonial.name}}</h4>
         {% if testimonial.image %}
         <div class="pull-right testimonialImage">
         <img src="{{site.baseurl}}/assets/img/testimonial/{{testimonial.image}}"  alt="" /></div>
