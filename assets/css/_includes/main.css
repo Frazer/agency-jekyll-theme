@@ -284,6 +284,15 @@ fieldset[disabled] .btn-xl.active {
     padding-bottom: 300px;
 }
 
+
+@media(min-width:1200px) {
+    .index header .intro-text {
+        padding-top: 350px;
+        padding-bottom: 400px;
+    }
+}
+
+
 .page header {
     padding: 60px 0 0;
     background: #2c6f2b;
@@ -896,4 +905,3 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #{{ site.color.primary }};
 }
-
