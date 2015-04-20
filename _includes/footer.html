@@ -17,7 +17,7 @@
                 <ul class="list-inline quicklinks">
                     {% for page in site.data.nav %}
                     <li>
-                        <a href="{{ nav.page | prepend: site.baseurl }}">{{ page.title }}</a>
+                        <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
                     </li>
                     {% endfor %}
                 </ul>

@@ -1,6 +1,6 @@
-- url: /testimonials/
-  title: Testimonials
-#- url: /about/
-#  title: About
-#- url: /contact/
-#  title: Contact
+- title: Testimonials
+  url: /testimonials/
+#- title: About
+#  url: /about/
+#- title: Contact
+#  url: /contact/
