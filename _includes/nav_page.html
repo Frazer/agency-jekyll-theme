@@ -18,9 +18,9 @@
                 <li class="hidden">
                     <a href="{{site.baseurl}}/"></a>
                 </li>
-                {% for nav in site.data.nav %}
+                {% for page in site.data.nav %}
                 <li>
-                    <a href="{{ nav.url | prepend: site.baseurl }}">{{ nav.title }}</a>
+                    <a href="{{ nav.page | prepend: site.baseurl }}">{{ page.title }}</a>
                 </li>
                 {% endfor %}
             </ul>

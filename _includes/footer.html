@@ -15,14 +15,11 @@
             </div>
             <div class="col-md-4">
                 <ul class="list-inline quicklinks">
-                    <li><a href="/frazerk.net/testimonials/">Testimonials</a>
+                    {% for page in site.data.nav %}
+                    <li>
+                        <a href="{{ nav.page | prepend: site.baseurl }}">{{ page.title }}</a>
                     </li>
-                  <!--
-                    <li><a href="#">Privacy Policy</a>
-                    </li>
-                    <li><a href="#">Terms of Use</a>
-                    </li>
-                  -->
+                    {% endfor %}
                 </ul>
             </div>
         </div>
