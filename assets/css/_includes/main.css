@@ -266,11 +266,7 @@ fieldset[disabled] .btn-xl.active {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    /* background-image: url(../assets/img/header-bg.jpg); */
-    /*background-image: url(http://fc06.deviantart.net/fs70/f/2012/123/1/9/i_lubb_you_by_roona_mbh-d4yfctp.jpg);*/
-    /*background-image: url(https://farm5.staticflickr.com/4129/5091187326_9bf8967e66_o.jpg);*/
-    background-image: url(https://farm8.staticflickr.com/7039/6835581528_10ec92ce8e_h.jpg);
-
+    background-image: url(../img/header-bg.jpg);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -698,7 +694,7 @@ aside.clients img {
 
 section#contact {
     background-color: #222;
-    background-image: url(../assets/img/map-image.png);
+    background-image: url(../img/contact-bg.png);
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -907,6 +903,6 @@ body {
 }
 
 .testimonialImage {
-    margin-left: 20px;   
+    margin-left: 20px;
 }
 }
