@@ -281,11 +281,15 @@ fieldset[disabled] .btn-xl.active {
     -o-background-size: cover;
 }
 
+header .intro-text {
+    color: #fff;
+    text-shadow: 1px 1px rgba(150, 150, 150, 0.5);
+}
+
 .index header .intro-text {
     padding-top: 250px;
     padding-bottom: 300px;
 }
-
 
 @media(min-width:1200px) {
     .index header .intro-text {
@@ -293,7 +297,6 @@ fieldset[disabled] .btn-xl.active {
         padding-bottom: 430px;
     }
 }
-
 
 .page header {
     padding: 60px 0 0;
@@ -308,21 +311,16 @@ fieldset[disabled] .btn-xl.active {
     margin-bottom: 50px;
 }
 
-
 .page header .intro-text {
-    padding-top: 100px;
-    padding-bottom: 50px;
-    color: #fff;
+    padding-top: 80px;
+    padding-bottom: 40px;
 }
 
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
-}
-
-header .intro-text .intro-lead-in p {
     font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 22px;
     font-style: italic;
+    font-size: 22px;
     line-height: 22px;
 }
 
@@ -330,8 +328,8 @@ header .intro-text .intro-heading {
     margin-bottom: 25px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 50px;
     font-weight: 700;
+    font-size: 50px;
     line-height: 50px;
 }
 
@@ -343,18 +341,13 @@ header .intro-text .intro-heading {
 
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
-        font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 40px;
-        font-style: italic;
         line-height: 40px;
     }
 
     header .intro-text .intro-heading {
         margin-bottom: 50px;
-        text-transform: uppercase;
-        font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 75px;
-        font-weight: 700;
         line-height: 75px;
     }
 }
