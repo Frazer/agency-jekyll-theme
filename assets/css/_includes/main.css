@@ -262,8 +262,6 @@ fieldset[disabled] .btn-xl.active {
     }
     
     .navbar-nav > li > a {
-        padding-top: 19.5px;
-        padding-bottom: 19.5px;
         padding-left: 14px;
         padding-right: 14px;
     }
