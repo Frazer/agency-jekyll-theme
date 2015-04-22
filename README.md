@@ -10,7 +10,8 @@ For details on how to manage this site, read the [Jekyll Documentation](http://j
 
 ## Tools
 
-Click here to use an online [WYSIWYG Editor] (http://ckeditor.com/demo#full) for creating html.
+* [CK Editor](http://ckeditor.com/demo#full): WYSIWYG Editor
+* [JetStrap](https://jetstrap.com/demo): Bootstrap3 IDE
 
 
 ## Testing
